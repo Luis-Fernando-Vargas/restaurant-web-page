@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pan Caliente Restaurant</title>
+  <script src="https://kit.fontawesome.com/8c315d5a31.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header-main">
+    <div class="container-nav">
+      <div class="content-nav container"  id="home">
+        <div class="logo">
+          <h2>Boulangerie <span>Pan</span> <span>Caliente</span></h2>
+          <h3><span class="yellow">Colom</span><span class="blue">bi</span><span class="red">an</span> Restaurant</h3>
+        </div>
+        <nav class="navigation hide">
+          <a href="#home" class="home-btn">Home</a> 
+          <a href="#about" class="about-btn">About Us</a>
+          <a href="#menu" class="menu-btn">Menu</a>
+          <a href="#contact" class="contact-btn">Contact Us</a>
+          <a href="#subscribe" class="subscribe-btn">Subscribe</a>
+        </nav>
+        <div class="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+    <div class="content-header">
+      <div class="container-header">
+        <div class="header-text">
+          <h2>Welcome!</h2>
+          <a class="btn edges" href="#menu">Our Menu</a>
+        </div>
+        <video autoplay loop muted>
+          <source src="./assets/videos/lunch.mp4">
+        </video>
+      </div>
+    </div>
+  </header>
+  <div class="container-us container" id="about">
+    <div class="us-text">
+      <p class="welcome">Welcome to!</p>
+      <h1>Boulangerie Pan Caliente</h1>
+      <p>At Boulangerie Pancaliente, we combine the artistry of French baking with the vibrant flavors of Colombian cuisine. From fresh empanadas and cheesy pandebonos to traditional bandeja paisa and ajiaco, every dish is made with love and the finest local ingredients.
+        Our goal is simple: to bring you an authentic taste of Colombia, served with warmth and care. Come for the flavor, stay for the experience.</p>
+      
+    </div>
+    <div class="us-images">
+      <div class="img1">
+        <img data-src="assets/images/colombian restaurant.jpg" alt="People eating in restaurant">
+      </div>
+      <div class="imgs2">
+        <img data-src="assets/images/eating in restaurant.avif" alt="Colombian dish">
+        <img data-src="assets/images/bandeja paisa.png" alt="Colombian dishes">
+      </div>
+    </div>
+  </div>
+  <section class="menu container" id="menu">
+    <h2 class="dishes-text">Menu</h2>
+    <div class="buttons-menu">
+      <button class="all btn blue-btn">All Dishes</button>
+      <button class="breakfast btn blue-btn">Breakfast</button>
+      <button class="lunch btn blue-btn">Lunch</button>
+      <button class="regular-lunch btn blue-btn">Regular Lunch</button>
+    </div>
+    <div class="dishes">
+      <div class="dish" data-dish="breakfast">
+        <img data-src="assets/images/eggs.jpg" alt="chocolate with eggs">
+        <h2>Eggs</h2>
+        <p>Two eggs(fried, scrambled, tortilla or scrambled with tomatoes and onions), arepa, bread, cheese, and hot
+          chocolate</p>
+        <div class="price">
+          <p>$12</p>
+          <button><i class="fa-solid fa-basket-shopping"></i></button>
+        </div>
+      </div>
+      <div class="dish" data-dish="breakfast">
+        <img data-src="assets/images/eggs-rice-beans.webp" alt="eggs with rice and beans">
+        <h2>Heated Beans</h2>
+        <p>Rice with red beans, arepa, fried egg, bread, cheese, and hot chocolate</p>
+        <div class="price">
+          <p>$12</p>
+          <button><i class="fa-solid fa-basket-shopping"></i></i></button>
+        </div>
+      </div>
+      <div class="dish" data-dish="breakfast">
+        <img data-src="assets/images/beef rib broth.jpg" alt="beef rib broth">
+        <h2>Beef Rib Broth</h2>
+        <p>Beef rib broth, arepa, bread, cheese, and hot chocolate </p>
+        <div class="price">
+          <p>$12</p>
+          <button><i class="fa-solid fa-basket-shopping"></i></i></button>
+        </div>
+      </div>
+      <div class="dish" data-dish="breakfast">
+        <img data-src="assets/images/tamal.jpeg" alt="Tamal">
+        <h2>Tamal from Huila</h2>
+        <p>Tamal, arepa, bread, cheese and chocolate</p>
+        <div class="price">
+          <p>$12</p>
+          <button><i class="fa-solid fa-basket-shopping"></i></i></button>
+        </div>
+      </div>
+      <div class="dish" data-dish="lunch">
+        <img data-src="assets/images/bandeja paisa.png" alt="Paisa platter">
+        <h2>Paisa platter</h2>
+        <p>Pulled beef, chorizo (Spanish sausage), pork rind, fried egg, rice, read beans, arepa, avocado, and ripe
+          plantain</p>
+        <div class="price">
+          <p>$17</p>
+          <button><i class="fa-solid fa-basket-shopping"></i></i></button>
+        </div>
+      </div>
+      <div class="dish" data-dish="lunch">
+        <img data-src="assets/images/flank.jpg" alt="Flank steak">
+        <h2>Flank Steak</h2>
+        <p>Flank steak, rice, cooked cassava, and avocado</p>
+        <div class="price">
+          <p>$17</p>
+          <button><i class="fa-solid fa-basket-shopping"></i></i></button>
+        </div>
+      </div>
+      <div class="dish" data-dish="lunch">
+        <img data-src="assets/images/hen.gif" alt="Hen Stew">
+        <h2>Hen Stew</h2>
+        <p>Hen, broth, rice, corn cob, potato, cooked cassava, ripe plantain, and avocado</p>
+        <div class="price">
+          <p>$17</p>
+          <button><i class="fa-solid fa-basket-shopping"></i></i></button>
+        </div>
+      </div>
+      <div class="dish" data-dish="lunch">
+        <img data-src="assets/images/ajiaco.webp" alt="Ajiaco">
+        <h2>Ajiaco</h2>
+        <p>Chicken, broth, rice, corn cob, milk cream, capers, avocado, and banana</p>
+        <div class="price">
+          <p>$17</p>
+          <button><i class="fa-solid fa-basket-shopping"></i></i></button>
+        </div>
+      </div>
+      <div class="dish" data-dish="lunch">
+        <img data-src="assets/images/chicken-with-rice.webp" alt="Chicken with rice">
+        <h2>Chicken with Rice</h2>
+        <p>Chicken with rice and fries</p>
+        <div class="price">
+          <p>$17</p>
+          <button><i class="fa-solid fa-basket-shopping"></i></i></button>
+        </div>
+      </div>
+      <div class="dish" data-dish="lunch">
+        <img data-src="assets/images/grilled.jpg" alt="Grilled Meat">
+        <h2>Grilled Meat</h2>
+        <p>Beef or chicken or pork, fries, and letucce salad</p>
+        <div class="price">
+          <p>$17</p>
+          <button><i class="fa-solid fa-basket-shopping"></i></i></button>
+        </div>
+      </div>
+      <div class="dish" data-dish="lunch">
+        <img data-src="assets/images/tilapia.webp" alt="Fried Tilapia">
+        <h2>Fried Tilapia</h2>
+        <p>Fried tilapia, lettuce salad, rice, and fried green plantain</p>
+        <div class="price">
+          <p>$17</p>
+          <button><i class="fa-solid fa-basket-shopping"></i></i></button>
+        </div>
+      </div>
+      <div class="dish" data-dish="lunch">
+        <img data-src="assets/images/catfish.jpg" alt="catfish">
+        <h2>Catfish with Sauce</h2>
+        <p>Catfish with sauce, rice, cooked cassava, and avocado</p>
+        <div class="price">
+          <p>$17</p>
+          <button><i class="fa-solid fa-basket-shopping"></i></i></button>
+        </div>
+      </div>
+      <div class="dish" data-dish="regular-lunch">
+        <img data-src="assets/images/regular.jpg" alt="Regular lunch">
+        <h2>Regular Lunch</h2>
+        <p>Rice, red beans, cooked cassava or potato, beef with veggies or stewed chicken or sweet and sour pork</p>
+        <div class="price">
+          <p>$12</p>
+          <button><i class="fa-solid fa-basket-shopping"></i></i></button>
+        </div>
+      </div>
+      <div class="dish" data-dish="regular-lunch">
+        <img data-src="assets/images/spaghetti.jpg" alt="Spaghetti">
+        <h2>Spaghetti</h2>
+        <p>Meat or chicken spaghetti, and fries</p>
+        <div class="price">
+          <p>$15</p>
+          <button><i class="fa-solid fa-basket-shopping"></i></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="divider">
+    <div class="divider-container container">
+      <h2>Colombian Food to Start the Day</h2>
+      <P>Start your day eating a delicious Colombian food</P>
+      <a href="#" class="btn red-btn">Order now</a>
+    </div>
+  </div>
+  <div class="contact-form container" id="contact">
+    <div class="contact-information">
+      <h3>Contact Us</h3>
+      <p><i class="fa-solid fa-location-dot"></i> 251 Bd Saint-Joseph A, Gatineau QC J8Y 3X5</p>
+      <p><i class="fas fa-phone-alt"></i> (819) 771-0682</p>
+      <div class="social-media">
+        <i class="fab fa-facebook-square"></i>       
+      </div>
+    </div>
+    <form class="form">
+      <div class="input-form">
+        <label for="name">Name</label>
+        <input type="text" placeholder="Kevin" id="name">
+      </div>
+      <div class="input-form">
+        <label for="last-name">Last Name</label>
+        <input type="text" placeholder="Chou" id="last-name">
+      </div>
+      <div class="input-form">
+        <label for="email">Email</label>
+        <input type="email" placeholder="example@example.com" id="email">
+      </div>
+      <div class="input-form">
+        <label for="phone">Phone</label>
+        <input type="tel" placeholder="514-559-04-74" id="phone">
+      </div>
+      <div class="input-form">
+        <label for="text">Message</label>
+        <textarea></textarea>
+      </div>
+      <div class="btn-form">
+       <input type="submit" value="Send" class="btn blue-btn">
+      </div>
+    </form>
+  </div>
+  <div class="general-info" id="subscribe">
+    <div class="info-container container">
+      <div class="info">
+        <h3>Address</h3>
+        <p>251 Bd Saint-Joseph A, Gatineau, QC J8Y 3X5</p>
+      </div>
+      <div class="info">
+        <h3>Schedule</h3>
+        <p>Tuesday-Friday 9am - 6pm</p>
+        <p>Saturday and Monday 10am - 5pm</p>
+        <div class="social-media social-foot">
+          <i class="fab fa-facebook-square"></i>       
+        </div>
+      </div>
+      <div class="info">
+        <h3>News</h3>
+        <p>Subscribe to receive latest News</p>       
+        <input type="email" placeholder="Your Email">
+        <input type="submit" value="Subscribe" class="btn red-btn">
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <p>Copyright &copy; 2024 Boulangerie Pan Caliente</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
